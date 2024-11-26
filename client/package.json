@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rishi998.github.io/HMA",
+  "homepage": "https://rishi998.github.io/HMA/client",
 
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "vite build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d client/dist"
   },
   "dependencies": {
     "browser-router": "^0.2.0",
